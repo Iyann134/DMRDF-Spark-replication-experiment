@@ -1,0 +1,7 @@
+model_name,accuracy,precision,recall,f1_score,auc_roc,train_time_sec,test_time_sec,total_time_sec,dataset_condition
+Logistic Regression,90.38,0.9047,0.9038,0.9027,0.9503,1.679,0.616,2.296,Without_DMRDF
+Support Vector Machine (LinearSVC),91.99,0.9199,0.9199,0.9194,0.9512,2.574,0.786,3.36,Without_DMRDF
+Decision Tree,95.76,0.9577,0.9576,0.9577,0.9499,2.606,0.53,3.136,Without_DMRDF
+Logistic Regression,90.26,0.9034,0.9026,0.9017,0.951,0.811,0.269,1.081,With_DMRDF
+Support Vector Machine (LinearSVC),91.95,0.9196,0.9195,0.9191,0.9549,2.007,0.255,2.263,With_DMRDF
+Decision Tree,95.55,0.9555,0.9555,0.9555,0.9442,1.186,0.215,1.402,With_DMRDF

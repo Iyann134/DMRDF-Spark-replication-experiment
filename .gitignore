@@ -1,0 +1,65 @@
+# ============================================================
+# .gitignore — Mahadata DMRDF Replication Project
+# ============================================================
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Dataset (file besar, upload terpisah / via Kaggle)
+data/*.csv
+data/*.json
+data/*.parquet
+data/*.zip
+
+# Hasil eksperimen (opsional — hapus baris ini jika ingin commit hasilnya)
+# results/
+
+# Spark temporary files
+derby.log
+metastore_db/
+spark-warehouse/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# File sementara
+make_notebook.py
+*.tmp
+*.bak
+
+# Dokumen sumber (bukan kode)
+extracted_paper.txt
+*.docx
